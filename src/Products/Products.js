@@ -12,7 +12,6 @@ function Products() {
         ).then(
             (data) => {
                 setProductsInfo(data)
-                console.log(1);
             }
         )
     }, [])
